@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORGINS = True 
+CORS_ALLOW_ALL_ORIGINS = True 
 
 ROOT_URLCONF = 'MyProject.urls'
 
