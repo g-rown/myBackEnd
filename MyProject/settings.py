@@ -35,7 +35,9 @@ ALLOWED_HOSTS = [
                 '.onrender.com'
                 ]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://peitel-backend-m3u0.onrender.com',
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -134,3 +136,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
