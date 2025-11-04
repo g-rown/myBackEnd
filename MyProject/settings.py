@@ -32,7 +32,8 @@ ALLOWED_HOSTS = [
                 'peitel-backend-m3u0.onrender.com',
                 'localhost',
                 '127.0.0.1', 
-                '.onrender.com'
+                '.onrender.com',
+                'https://peitel-backend-m3u0.onrender.com',
                 ]
 
 CSRF_TRUSTED_ORIGINS = [
