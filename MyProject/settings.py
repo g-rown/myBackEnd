@@ -29,7 +29,7 @@ ALLOWED_HOSTS = [
                 'http://192.168.30.216:8000/', 
                 '192.168.30.216:8000', 
                 '192.168.30.216', 
-                'peitel-backend-o6n5.onrender.com',
+                'peitel-backend-m3u0.onrender.com',
                 'localhost',
                 '127.0.0.1', 
                 ]
